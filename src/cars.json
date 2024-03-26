@@ -1,0 +1,101 @@
+{
+  "car1": {
+    "id": 1,
+    "name": "Koenigsegg",
+    "price": "99.00",
+    "type": "Sport",
+    "capacity": "2 People",
+    "gear": "Manual",
+    "gasoline": "90L",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tincidunt elit. Sed auctor accumsan eros, a vulputate odio condimentum et. Quisque eu finibus lacus. Sed pulvinar eleifend rutrum. ",
+    "img": "/Car (1).png"
+  },
+  "car2": {
+    "id": 2,
+    "name": "Nissan GT-R",
+    "price": "80.00",
+    "type": "Sport",
+    "capacity": "2 People",
+    "gear": "Manual",
+    "gasoline": "80L",
+    "desc": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the \"race track\".",
+    "img": "/car.png"
+  },
+  "car3": {
+    "id": 3,
+    "name": "Rolls-Royce",
+    "price": "96.00",
+    "type": "Sport",
+    "capacity": "4 People",
+    "gear": "Manual",
+    "gasoline": "70L",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tincidunt elit. Sed auctor accumsan eros, a vulputate odio condimentum et. Quisque eu finibus lacus. Sed pulvinar eleifend rutrum. ",
+    "img": "/Car (2).png"
+  },
+  "car4": {
+    "id": 4,
+    "name": "All New Rush",
+    "price": "72.00",
+    "type": "SUV",
+    "capacity": "6 People",
+    "gear": "Automatic",
+    "gasoline": "70L",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tincidunt elit. Sed auctor accumsan eros, a vulputate odio condimentum et. Quisque eu finibus lacus. Sed pulvinar eleifend rutrum. ",
+    "img": "/Car (3).png"
+  },
+  "car5": {
+    "id": 5,
+    "name": "CR-V",
+    "price": "80.00",
+    "type": "SUV",
+    "capacity": "6 People",
+    "gear": "Automatic",
+    "gasoline": "80L",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tincidunt elit. Sed auctor accumsan eros, a vulputate odio condimentum et. Quisque eu finibus lacus. Sed pulvinar eleifend rutrum. ",
+    "img": "/Car (4).png"
+  },
+  "car6": {
+    "id": 6,
+    "name": "All New Terios",
+    "price": "74.00",
+    "type": "SUV",
+    "capacity": "6 People",
+    "gear": "Automatic",
+    "gasoline": "90L",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tincidunt elit. Sed auctor accumsan eros, a vulputate odio condimentum et. Quisque eu finibus lacus. Sed pulvinar eleifend rutrum. ",
+    "img": "/Car (5).png"
+  },
+  "car7": {
+    "id": 7,
+    "name": "MG ZX Exclusice",
+    "price": "76.00",
+    "type": "Hatchback",
+    "capacity": "4 People",
+    "gear": "Electric",
+    "gasoline": "70L",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tincidunt elit. Sed auctor accumsan eros, a vulputate odio condimentum et. Quisque eu finibus lacus. Sed pulvinar eleifend rutrum. ",
+    "img": "/Car (6).png"
+  },
+  "car8": {
+    "id": 8,
+    "name": "New MG ZS",
+    "price": "80.00",
+    "type": "SUV",
+    "capacity": "6 People",
+    "gear": "Manual",
+    "gasoline": "80L",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tincidunt elit. Sed auctor accumsan eros, a vulputate odio condimentum et. Quisque eu finibus lacus. Sed pulvinar eleifend rutrum. ",
+    "img": "/Car (7).png"
+  },
+  "car9": {
+    "id": 9,
+    "name": "MG ZX Excite",
+    "price": "74.00",
+    "type": "Hatchback",
+    "capacity": "4 People",
+    "gear": "Electric",
+    "gasoline": "90L",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tincidunt elit. Sed auctor accumsan eros, a vulputate odio condimentum et. Quisque eu finibus lacus. Sed pulvinar eleifend rutrum. ",
+    "img": "/Car (8).png"
+  }
+}

@@ -1,0 +1,111 @@
+@import "../app.scss";
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 50px;
+  background-color: #fff;
+
+  @include mobile {
+    margin: 20px 15px;
+    align-items: start;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    h1 {
+      font-size: 32px;
+      color: #3563e9;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+
+    form {
+      width: 500px;
+      border: 1px solid lightgray;
+      border-radius: 70px;
+      padding: 10px 15px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      input {
+        width: 100%;
+        outline: none;
+        border: none;
+      }
+    }
+
+    @include mobile {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: start;
+      gap: 15px;
+      h1 {
+        margin: 0;
+      }
+
+      form {
+        width: 120%;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .icons {
+      display: flex;
+      gap: 20px;
+
+      span {
+        position: relative;
+        img {
+          border: 1px solid lightgray;
+          border-radius: 50%;
+          padding: 5px;
+          cursor: pointer;
+        }
+        .dot {
+          width: 10px;
+          height: 10px;
+          background-color: #ff4423;
+          border-radius: 50%;
+          position: absolute;
+          top: 0;
+          right: 3px;
+        }
+      }
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+    .user {
+      @include mobile {
+        width: 50px;
+      }
+
+      img {
+        border: 1px solid lightgray;
+        border-radius: 50%;
+        padding: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}

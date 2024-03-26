@@ -1,0 +1,84 @@
+@import "../app.scss";
+
+.footer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 25px 50px;
+  gap: 15px;
+
+  @include mobile {
+    margin: 15px 30px;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    @include mobile {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .left {
+      h1 {
+        color: #3563e9;
+      }
+
+      span {
+        font-size: 16px;
+        font-weight: light;
+        color: gray;
+      }
+    }
+
+    .right {
+      display: flex;
+      gap: 60px;
+
+      @include mobile {
+        flex-wrap: wrap;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        gap: 30px;
+
+        h2 {
+          font-size: 20px;
+        }
+
+        span {
+          font-size: 16px;
+          color: gray;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .bottom {
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+
+    @include mobile {
+      flex-direction: column;
+    }
+
+    .right {
+      display: flex;
+      gap: 60px;
+      p {
+        cursor: pointer;
+      }
+    }
+  }
+}

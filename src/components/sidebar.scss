@@ -1,0 +1,91 @@
+.sidebar {
+  background-color: #fff;
+  width: 250px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  //   overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 22px;
+
+  .type {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .text {
+      font-size: 12px;
+    }
+
+    .input {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 18px;
+
+      input {
+        margin-right: 7px;
+      }
+
+      label {
+        margin-right: 5px;
+        color: #596780;
+      }
+      span {
+        color: #90a3bf;
+      }
+    }
+  }
+
+  .capacity {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .text {
+      font-size: 12px;
+    }
+
+    .input {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 18px;
+
+      input {
+        margin-right: 7px;
+      }
+      label {
+        margin-right: 5px;
+        color: #596780;
+      }
+      span {
+        color: #90a3bf;
+      }
+    }
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+
+    .text {
+      font-size: 12px;
+    }
+
+    .input {
+      input {
+        margin-right: 7px;
+        width: 80%;
+      }
+      span {
+        color: #596780;
+        font-size: 18px;
+      }
+    }
+  }
+}

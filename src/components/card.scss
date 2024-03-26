@@ -1,0 +1,101 @@
+.card {
+  width: 300px;
+  height: 350px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  // gap: 50px;
+  padding: 10px 15px;
+  cursor: pointer;
+
+  .cardtext {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+
+    .cardname {
+      display: flex;
+      flex-direction: column;
+      // margin-bottom: 50px;
+      h3 {
+        margin: 0;
+        font-size: 20px;
+      }
+      span {
+        font-size: 14px;
+        color: gray;
+        font-weight: 550;
+      }
+    }
+
+    .cardheart {
+      margin-top: -15px;
+    }
+  }
+
+  .cardimage {
+    // justify-self: center;
+    text-align: center;
+    flex: 2;
+    // width: 100%;
+    img {
+      justify-self: center;
+      width: 100%;
+    }
+  }
+
+  .cardinfo {
+    display: flex;
+    gap: 20px;
+
+    .cardgas,
+    .cardgear,
+    .cardseats {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+
+      span {
+        font-size: 14px;
+        color: gray;
+      }
+    }
+  }
+
+  .cardbuy {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .cardprice {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      p {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      span {
+        font-size: 14px;
+        color: gray;
+      }
+    }
+
+    .cardbutton {
+      button {
+        background-color: #3563e9;
+        border: none;
+        color: white;
+        padding: 13px 23px;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+}
